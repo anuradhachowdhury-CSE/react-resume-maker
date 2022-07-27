@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+p{
+  margin: 0;
+  padding: 0;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +38,507 @@
   to {
     transform: rotate(360deg);
   }
+}
+nav{
+  /* background-color:black; */
+  height:5rem;
+  /* display: flex;
+  justify-content:end;
+  align-items: end; */
+ 
+}
+/* .nav-link{
+  text-decoration: none;
+  color: white;
+  margin:5px;
+  padding: 10px;
+} */
+/* nav  .active{
+  color:red;
+} */
+.spcl-img{
+  width: 40%;
+}
+.green{
+  background-color: rgb(44, 169, 55);
+  color: black;
+  border: 1px solid rgb(44, 169, 55) ;
+  border-radius: 10px;
+  font-weight: 700;
+}
+/* HOME PAge */
+.home-one{
+  text-align: center;
+  background-image: url('https://www.whoa.in/download/1900-x-1200-size-hd-desktop-wallpaper-80');
+  background-repeat: no-repeat;
+  /* background-position: center; */
+ height: 500px;
+margin-bottom: 30%;
+/* background: linear-gradient(to right,#51E2C2,#4BCCEF); */
+}
+.home-one img{
+ width: 90%;
+ margin-left: 30%;
+}
+.home-one .col-md-4 {
+ color: white;
+ text-align: center;
+}
+.home-one a{
+  background-color: rgb(44, 169, 55);
+  padding: 5px;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.home-two img{
+width: 100%;
+}
+.home-one .imgs{
+  position: relative;
+}
+.home-two{
+  margin: 8%;
+  text-align: center;
+}
+  /* background: linear-gradient(to right,#51E2C2,#4BCCEF); */
+
+.home-two h3{
+  text-align: center;
+  padding-bottom: 5%;
+  font-weight: 700;
+  color: blue;
+}
+.home-two .card{
+ padding:3% ;
+ box-shadow: 0px 0px 40px blue;
+ margin: 5%;
+}
+.home-three img{
+  width:40%;
+}
+.home-three{
+  background-color: rgb(230, 198, 155);
+  
+}
+.home-three img{
+  width:100%;
+  margin-bottom: 10%;
+ 
+}
+
+.home-three{
+  width: 80%;
+  height:auto;
+  margin-left: 10%;
+  padding: 5% 5%;
+ 
+  background-color: rgb(212, 204, 204);
+  border-radius: 5%;
+  margin-bottom: 8%;
+
+}
+.home-three h3{
+  text-align: center;
+}
+
+.home-three .col-md-3{
+  margin-left: 5%;
+}
+.home-three a{
+  background-color: rgb(44, 169, 55);
+  color: black;
+  padding:1%;
+  border: 10px;
+  text-decoration: none;
+  border: 1px solid rgb(139, 224, 224) ;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: large;
+  text-align: center;
+
+}
+
+.home-four{
+  
+  color: black;
+  /* background-color: rgb(225, 223, 219); */
+  background-image: url('https://i.pinimg.com/originals/74/43/a3/7443a31b6a19e5630b94a6538ff9bdd1.gif');
+ position: relative;
+  background-size: cover;
+  margin: 10%;
+  padding: 7%;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px;
+
+}
+.home-four img{
+  width: 100%;
+}
+.home-four h4{
+  font-weight: 700;
+}
+.home-five{
+  margin:0;
+  background-image: linear-gradient(to right,cyan,pink,yellow);
+  height: 600px;
+  margin-bottom:5%;
+  background-position: center;
+ background-size: cover;
+ 
+
+}
+.home-five .col-md-6 h3,p{
+padding-left: 50px;
+padding-top: 50px;
+}
+.home-five a{
+  background-color: rgb(239, 196, 88);
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 10%;
+  margin: 35%;
+}
+.home-five p{
+  margin-bottom: 5%;
+}
+.home-five img{
+  width: 60%;
+  margin-top: -60%;
+  margin-left: 100%;
+}
+main{
+  margin: 0;
+  
+}
+.home-seven img{
+  width: 80%;
+}
+.home-seven .container{
+  margin-left: 20%;
+  
+ 
+}
+.home-seven .row{
+  margin:5%;
+}
+.home-seven h1{
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 2%;
+  color: blue;
+}
+.home-eight{
+  text-align: center;
+  margin-top: 4%;
+}
+.home-eight a,.home-four a{
+  background-color: rgb(44, 169, 55);
+  color:black;
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+}
+.xtra{
+  text-align: center;
+  font-weight: 700;
+  color: purple;
+}
+
+/* Resume page */
+/* .resume-one-one img{
+  width:50%;
+} */
+
+.resume-one img{
+ /* background-image: url('image/group.png'); */
+ width: 30%;
+ margin-left: 50%;
+}
+.resume-one{
+ background-image: url('https://c.tenor.com/o23PLsTxPLoAAAAd/wallpaper.gif');
+ box-shadow: 0px 0px 40px  blue;
+  color: aliceblue;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  padding-top: 3%;
+
+}
+.resume-one h1,p{
+  padding-left:5%;
+}
+.resume-two{
+  background-image:linear-gradient(rgb(7, 22, 54),white,aquamarine);
+  margin: 5% 10%;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+.resume-two .card{
+  margin: 7%;
+ 
+}
+.resume-two h3{
+   text-align: center;
+}
+.resume-two .container{
+   margin-left: 17%;
+  }
+  .resume-three{
+    background-color: rgb(249, 244, 244);
+    padding:5%;
+    border: 1px solid white;
+    border-radius:10px;
+}
+.resume-three h3{
+    text-align:center;
+}
+.resume-three img{
+    width:40%;
+}
+
+/* CV PAGE */
+
+.CV-one{
+  background-image: url('https://i.gifer.com/6wY.gif');
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.cv-two h2{
+  text-align: center;
+ 
+ }
+ /* .cv-two{
+     height: 600px;
+ } */
+ .cv-two .card{
+     margin: 7%;
+    
+  }
+  .cv-two .container{
+      margin-left: 10%;
+  }
+  .cv-two{
+     background-image: linear-gradient(rgb(132, 132, 249),white,cyan);
+     padding-top: 3%;
+     border: 1px solid white;
+     border-radius: 20px;
+     margin: 5% 10%;
+  }
+  .cv-three h2{
+    text-align: center;
+ }
+ .cv-three{
+    /* background-image: url('image/'); */
+    background-image: url('https://images.unsplash.com/photo-1614851099175-e5b30eb6f696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmFubmVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    background-image: url('https://wallpaperaccess.com/full/4954222.jpg');
+  background-size: cover;
+    font-weight: 500;
+    color: white;
+    margin: 5%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5%;
+ }
+ .seven{
+  /* background-image: url('https://wallpaperaccess.com/full/4954222.jpg'); */
+  background-size: contain;
+ 
+ }
+ .cv-three{
+  text-align: start;
+ }
+ .cv-three h4{
+    font-weight: 700;
+ }
+ .seven img{
+  width: 70%;
+}
+.seven .row{
+  margin-bottom: 5%;
+}
+.seven h1{
+  text-align: center;
+  margin-bottom: 3%;
+  font-weight: 700;
+}
+.seven .container{
+  margin-left: 15%;
+}
+  /* Cover page */
+
+.Cover{
+  background-image: url('https://cdn.wallpapersafari.com/83/44/FOnoH8.gif');
+  box-shadow: 0px 0px 50px rgb(9, 155, 192);
+}
+
+.cover-two{
+  background-image:linear-gradient(rgb(31, 179, 216),white,rgb(91, 129, 243))
+}
+.cover-letter-two{
+  padding: 2%;
+}
+.cover-letter-five h3{
+  text-align: center;
+   }
+   .cover-letter-five .row .col-md-3{
+      margin-left: 5%;
+   }
+   .cover-letter-five img{
+    width: 90%;
+   }
+   .cover-letter-five{
+    background-color: #bbb;
+    margin:10% ;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5%;
+   }
+.cover-letter-six .card h3{
+  text-align: center;
+
+}
+.cover-letter-six h2{
+  text-align: center;
+}
+.cover-letter-six .card{
+  background-image: url('https://i.pinimg.com/originals/62/39/4d/62394d753859943e6a1a36443ef78795.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: #bbb;
+  height: 100%;
+
+  
+}
+
+/* Motivation page */
+.motivation-one img{
+  width:60%;
+}
+.motivation-one{
+  text-align: center;
+  /* background-image: url('image/Abstract-Grey-DNA-Molecular-Structure-Animated-Background-.gif'); */
+  background-image: url('https://i.pinimg.com/originals/32/d7/6b/32d76bda14ee5e1dc93bdf36a6d2e46d.gif');
+  color: white;
+  
+  
+}
+ .motivation>.container img{
+ width: 60%;
+}
+.motivation{
+  text-align: center;
+  /* background-color: antiquewhite; */
+ margin: 10%;
+ box-shadow: 0px 10px 40px rgb(116, 18, 207);
+}
+.motivation-three {
+  text-align: center;
+  background-image: linear-gradient(purple,white,pink);
+  margin: 15%;
+  padding: 5%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.motivation-four {
+  text-align: center;
+  background-image: linear-gradient(purple,white,pink);
+}
+
+
+
+
+/* Register */
+.register-one img{
+ width: 80%;
+}
+.register-one{
+  color: #282c34;
+  background-image: linear-gradient(purple,white,pink);
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 5%;
+}
+.register-one label{
+  padding: 10px;
+  margin-bottom: 20px;
+  
+}
+.register-one a{
+  text-decoration: none;
+  background-color: rgb(44, 169, 55);
+  color: black;
+  padding: 10px;
+  border: 1px solid rgb(44, 169, 55);
+  border-radius: 10px;
+  margin-left: 3%;
+  
+}
+/* Sign */
+.sign-one{
+  text-align: center;
+  margin: 15%;
+  margin-top: 5%;
+  background-image: linear-gradient(rgb(44, 169, 55),white,yellow);
+  border: 1px solid white;
+  border-radius:20px;
+  padding: 5%;
+  font-weight: 700;
+
+}
+.sign-one label,.sign-one h6,.sign-one h5{
+  padding: 3%;
+  font-weight: 700;
+}
+.sign-one a{
+  background-color: rgb(44, 169, 55);
+  padding: 1.5%;
+  color: black;
+  text-decoration: none;
+  border: 1px solid rgb(44, 169, 55);
+  border-radius: 10px;
+  
+  
+}
+  /* Footer */
+
+footer .nine{
+  background-color: #69727d;
+  line-height: 50px;
+text-align: end;
+
+}
+.nine i{
+  color: white;
+  padding: 20px;
+}
+footer .ten{
+  background-color: #425061;
+  padding: 2%;
+  color:white;
+}
+footer a{
+  color:white;
+  text-decoration: none;
+}
+footer li{
+  list-style: none;
+ 
+}
+footer .eleven{
+  background-color: black;
+  text-align: center;
+  color: white;
+ /* padding: 3%; */
 }
