@@ -7,6 +7,7 @@ const Home = () => {
     <div>
        <main>
         <section className='home-one'>
+          <div className="container">
           <div className="row">
             <div className="col-md-4 ">
             <h1 className='animate__animated animate__backInLeft'>The online resume builder getting folks hired by BBC, Google, Apple, Tesla, and Airbnb.</h1>
@@ -20,6 +21,8 @@ const Home = () => {
             <img className="imgs img-fluid" src={images.img47} alt=".." />
             </div>
           </div>
+          </div>
+         
         {/* <h1>The online resume builder getting folks hired by BBC, Google, Apple, Tesla, and Airbnb.</h1>
         <h4>Build your brand-new resume in as little as 5 minutes.</h4>
        
@@ -93,7 +96,9 @@ const Home = () => {
             If you use any of our premium features, the software will let you know about it. It will then ask if you did it accidentally, or if you would like to upgrade to Novorésumé Premium. You're in control!
          </p>
             <a href="">Apply Now</a>
+            <div className="container">
             <img className='img-fluid' src={images.img33} alt=""/>
+            </div>
     </div>
   {/* <img src="image/ebook-cover.webp" alt="">  */}
  
@@ -223,7 +228,7 @@ const Home = () => {
                 Then, you’ll be forwarded to our resume builder, where all you have to do is fill in your resume content!</p>
             </div>
             <div class="col-md-3">
-                <img src={images.img6} alt=""/>
+                <img src={images.img6} alt="" className='img-fluid'/>
 
             </div>
         </div>

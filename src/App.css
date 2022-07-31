@@ -220,12 +220,12 @@ main{
   width: 80%;
 }
 .home-seven .container{
-  margin-left: 20%;
+  /* margin-left: 20%; */
   
  
 }
 .home-seven .row{
-  margin:5%;
+justify-content: center;
 }
 .home-seven h1{
   text-align: center;
