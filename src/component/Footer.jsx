@@ -2,74 +2,62 @@ import React from 'react'
 
 
 const Footer = () => {
-  return (
-    <div>
-        <footer>
-<section class="nine">
-   <i class="fa-brands fa-facebook-f"></i>
-   <i class="fa-brands fa-linkedin-in"></i>
-    <i class="fa-brands fa-twitter"></i>
-    <i class="fa-brands fa-instagram"></i>
-</section>
-<section class="ten">
-<div class="row">
-    <div class="col-md-3">
-        <ul class="navbar-brand" >Res`ume
-            <li><a href="">Homepage</a></li>
-            <li><a href="">Resume template</a></li>
-            <li><a href="">CV Templates</a></li>
-            <li><a href="">Cover Letters</a></li>
-            
+    const date= new Date();
+    const year = date.getFullYear();
+    return (
+        <div>
 
-        </ul>
+
+            <footer>
+                <div className="container">
+
+
+                    <div className="row">
+                        <div className="col-md-3">
+                            <h5>IGP</h5>
+                            <p>Feed your skill</p>
+                            <p className="paragraph">Innovation,Impact,Inspire</p>
+                        </div>
+                        <div className="row col-md-2">
+                            <a href="">Home</a>
+                            <a href="">About Us</a>
+                            <a href="">Portfoliao</a>
+                            <a href="">Services</a>
+                            <a href="">Contact</a>
+                        </div>
+                        <div className="row col-md-2">
+                            <a href="">Clients</a>
+                            <a href="">Team</a>
+                            <a href="">Career</a>
+                            <a href="">Testimonial</a>
+                            <a href="">Journal</a>
+                        </div>
+                        <div className="row col-md-2">
+                            <a href="">Privacy Policy</a>
+                            <a href="">Teams & Conditions</a>
+                            <a href="">Partners</a>
+                        </div>
+                        <div className="col-md-3">
+                            <div>
+                                <a href="/"> <i class="fa-brands fa-instagram" ></i></a>
+                                <a href="/"> <i class="fa-brands fa-twitter" ></i></a>
+                                <a href="https://www.facebook.com/groups/1623529167810001"> <i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="/"> <i class="fa-brands fa-pinterest" ></i></a>
+                                <a href="/"><i class="fa-brands fa-google-plus-g" href="/"></i></a>
+                            </div>
+                            <div>
+                                <a href="" className='btn contact-btn'>Contact Us</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr />
+                    <h6 className='last-portion'>&copy;{year} All Right Reserved</h6>
+                </div>
+            </footer>
+
         </div>
-        <div class="col-md-3">
-        <ul class="navbar-brand" >Learn
-            <li><a href="">Career Blog</a></li>
-            <li><a href="">How to write a resume</a></li>
-            <li><a href="">How to write a CV</a></li>
-            <li><a href="">How to write a Cover Letters</a></li>
-            <li><a href="">Resume Examples</a></li>
-            <li><a href="">Cover Letter Examples</a></li>
-            
-
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <ul class="navbar-brand" >Other
-            <li><a href="">Pricing</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">E-book</a></li>
-            <li><a href="">Media kit</a></li>
-            <li><a href="">Help Center</a></li>
-            
-
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <ul class="navbar-brand" >Legal/Contact
-            <li><a href="">Term of Use</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Cookie Policy</a></li>
-            <li><a href="">contact@igpresume.com</a></li>
-            
-
-        </ul>
-    </div>
-      
-    </div>
-
-</section>
-<section class="eleven">
-<h5>Our vision is to</h5>
-<h3>Fight Galactic Unemployment</h3>
-<h5>Ny Carlsberg Vej 80</h5>
-<h5>DK 1799 Copenhagen, Denmark</h5>
-<h5>Copyright © 2022 Novorésumé ApS. All Rights Reserved.</h5>
-</section>
-</footer>
-    </div>
-  )
+    )
 }
 
 export default Footer

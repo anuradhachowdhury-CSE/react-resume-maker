@@ -1,3 +1,4 @@
+
 import React from 'react'
 import {NavLink ,Link} from 'react-router-dom'
 import images from '../component/image'
@@ -5,27 +6,30 @@ import images from '../component/image'
 const Navbar = () => {
   return (
     
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark navving">
     <div className="container">
       <Link className='navbar-brand' to="/">
-      <img className="spcl-img" src={images.img49}/>Resume Maker
+        <h5>IGP Resume Maker</h5>
+      
       </Link>
       
      <button
-        className="navbar-toggler"
+        className="navbar-toggler navbar-dark bg-dark"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
+        
+       
       >
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
           <li className="nav-item">
-            <NavLink className="nav-link active" aria-current="page" to="/">
+            <NavLink className="nav-link" aria-current="page" to="/">
               Home
             </NavLink>
           </li>
@@ -58,13 +62,14 @@ const Navbar = () => {
             <NavLink className="nav-link" to="/sign">
               Sign in
             </NavLink>
-          </li>
+          </li>F
         </ul>
        
       </div>
     </div>
   </nav>
   
+
 
   
   )

@@ -8,32 +8,25 @@ const Home = () => {
        <main>
         <section className='home-one'>
           <div className="container">
-          <div className="row">
-            <div className="col-md-4 ">
-            <h1 className='animate__animated animate__backInLeft'>The online resume builder getting folks hired by BBC, Google, Apple, Tesla, and Airbnb.</h1>
-        <h4 className='animate__animated animate__backInRight'>Build your brand-new resume in as little as 5 minutes.</h4>
-       
+          <div className="row"> 
+            <div className="col-md-4 col-6">
+            {/* <h1 className='animate__animated animate__backInLeft'>The online resume builder getting folks hired by BBC, Google, Apple, Tesla, and Airbnb.</h1>
+        <h4 className='animate__animated animate__backInRight'>Build your brand-new resume in as little as 5 minutes.</h4> */}
+       <h1> The online resume builder getting folks hired by BBC, Google, Apple, Tesla, and Airbnb.</h1>
        <h5>Try it for free.</h5>
-       <a href="" >Get Started Now</a>
+        <a href="" >Get Started Now</a>
        
             </div>
-            <div className="col-md-6">
-            <img className="imgs img-fluid" src={images.img47} alt=".." />
+            <div className="col-md-6 col-6">
+            <img className="img-fluid" src={images.img47} alt=".." />
             </div>
+           </div>
           </div>
-          </div>
-         
-        {/* <h1>The online resume builder getting folks hired by BBC, Google, Apple, Tesla, and Airbnb.</h1>
-        <h4>Build your brand-new resume in as little as 5 minutes.</h4>
-       
-       <h5>Try it for free.</h5>
-       <a href="">Get Started Now</a>
-       <p>No credit cad required</p> */}
        </section>
 
-       <h3 className="xtra">Build Your Resume Fast and Easy</h3>
-       <section className='home-four'>
       
+       {/* <section className='home-four'>
+       
        <div class="container">
            <div class="row">
                <div class="col-md-6">
@@ -42,15 +35,16 @@ const Home = () => {
                    <h5>Build your resume </h5>
                    
                    <a className='green' href="">Get Started Now</a>
-                   {/* <p>No credit card required</p> */}
+                    <p>No credit card required</p> 
                </div>
-               <div class="col-md-6">
-        <img src={images.img12} alt=""/>
+              <div class="col-md-6">
+      <img src={images.img12} alt=""/>
                </div>
-           </div>
+          </div>
+           
        </div>
       
-   </section> 
+   </section>   */}
      
        <section className='home-two'>
     <h3>Our Users Are Being Hired at the World's Leading Companies.</h3>
@@ -90,16 +84,27 @@ const Home = () => {
     </div>
        </section>
        <section class="home-five">
-    <div class="col-md-6">
+      
+        <div className="container">
+       
+          <div className="row">
+            
+         
+        <div class="col-md-6 ">
         <h3>If you’re on a budget, you can use it to create your resume completely free of charge. And no, unlike some other resume builders out there, we don’t hit you with a paywall once you’ve completed your resume.</h3>
          <p>
             If you use any of our premium features, the software will let you know about it. It will then ask if you did it accidentally, or if you would like to upgrade to Novorésumé Premium. You're in control!
          </p>
-            <a href="">Apply Now</a>
-            <div className="container">
-            <img className='img-fluid' src={images.img33} alt=""/>
+            {/* <a href="">Apply Now</a> */}
             </div>
-    </div>
+            <div className="col-md-6">
+            <img className='img-fluid' src={images.img33} alt=""/>
+            
+            </div>
+            </div>
+        </div>
+       
+   
   {/* <img src="image/ebook-cover.webp" alt="">  */}
  
   </section>
@@ -262,7 +267,7 @@ const Home = () => {
   <section class="home-eight">
     <h3>Ready to jump start your career</h3>
     <a href="">Get sarted now</a>
-    <p>No credit card required</p> 
+    {/* <p>No credit card required</p>  */}
   <img class="img-fluid" src={images.img15} alt=""/>
   </section>
 

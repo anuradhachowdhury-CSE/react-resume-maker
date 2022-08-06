@@ -16,39 +16,39 @@ const Resume = () => {
             <h3>Resume Template </h3>
             <div className="container">
                 <div className="row ">
-                    <div className="col-md-3">
+                    <div className="col-md-3 col-3">
                         <div className="card animate__animated animate__backInLeft">
-                            <img src="https://d.novoresume.com/images/doc/traditional-resume-template.png" alt=""/>
+                            <img className="img-fluid" src="https://d.novoresume.com/images/doc/traditional-resume-template.png" alt=""/>
                         </div>
                      
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 col-3">
                         <div className="card animate__animated animate__backInLeft">
                             
-                         <img src="https://d.novoresume.com/images/doc/minimalist-resume-template.png" alt=""/>
+                         <img className="img-fluid" src="https://d.novoresume.com/images/doc/minimalist-resume-template.png" alt=""/>
     
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInLeft">
-                           <img src="https://d.novoresume.com/images/doc/modern-resume-template.png" alt=""/>
+                           <img className="img-fluid" src="https://d.novoresume.com/images/doc/modern-resume-template.png" alt=""/>
                         </div>
     
                     </div>
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInRight">
-                            <img src="https://d.novoresume.com/images/doc/creative-resume-template.png" alt=""/>
+                            <img className="img-fluid" src="https://d.novoresume.com/images/doc/creative-resume-template.png" alt=""/>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInRight">
                            
                          <img src="https://d.novoresume.com/images/doc/functional-resume-template.png" alt=""/>
     
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInRight">
                            <img src="https://d.novoresume.com/images/doc/professional-resume-template.png" alt=""/>
                         </div>
@@ -56,39 +56,39 @@ const Resume = () => {
                     </div>
                     </div>
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInLeft">
                             <img src="https://d.novoresume.com/images/doc/it-resume-template.png" alt=""/>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInLeft">
                            
                          <img src="https://d.novoresume.com/images/doc/simple-resume-template.png" alt=""/>
     
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3"> 
                         <div className="card animate__animated animate__backInLeft">
-                           <img src="https://d.novoresume.com/images/doc/simple-resume-template.png" alt=""/>
+                           <img className="img-fluid" src="https://d.novoresume.com/images/doc/simple-resume-template.png" alt=""/>
                         </div>
     
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInRight">
-                            <img src="https://d.novoresume.com/images/doc/hybrid-resume-template.png" alt=""/>
+                            <img className="img-fluid" src="https://d.novoresume.com/images/doc/hybrid-resume-template.png" alt=""/>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInRight">
                            
-                         <img src="https://d.novoresume.com/images/doc/basic-resume-template.png" alt=""/>
+                         <img className="img-fluid" src="https://d.novoresume.com/images/doc/basic-resume-template.png" alt=""/>
     
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInRight">
                            <img src="https://d.novoresume.com/images/doc/general-resume-template.png" alt=""/>
                         </div>
@@ -96,38 +96,38 @@ const Resume = () => {
                     </div>
                     </div>
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInLeft">
                             <img src="https://d.novoresume.com/images/doc/professional-resume-template.png" alt=""/>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInLeft">
                             <img src="https://d.novoresume.com/images/doc/minimalist-resume-template.png" alt=""/>
                         </div>
                     </div>
                    
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInLeft">
-                            <img src="https://marketplace.canva.com/EAFCMkaA7Y4/1/0/1131w/canva-beige-minimalist-academic-resume-QASLdqVGnJo.jpg" alt=""/>
+                            <img className="img-fluid" src="https://marketplace.canva.com/EAFCMkaA7Y4/1/0/1131w/canva-beige-minimalist-academic-resume-QASLdqVGnJo.jpg" alt=""/>
                         </div>
                     </div>
                     </div>
 
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInRight">
-                            <img src="https://d.novoresume.com/images/doc/college-resume-template.png" alt=""/>
+                            <img className="img-fluid" src="https://d.novoresume.com/images/doc/college-resume-template.png" alt=""/>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInRight">
                            
                          <img src="https://d.novoresume.com/images/doc/combined-resume-template.png" alt=""/>
     
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3  col-3">
                         <div className="card animate__animated animate__backInRight">
                            <img src="https://d.novoresume.com/images/doc/skill-based-resume-template.png" alt=""/>
                         </div>
@@ -143,14 +143,14 @@ const Resume = () => {
     <h2>Resume Template FAQ</h2>
      <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 col-6">
           <div class="card">
             <h3>How to Make a Simple Resume Template for Your Resume?</h3>
             <p>Simply pick one of our 12 Resume Template above to get started.</p>
             <p>We’d recommend matching your Resume Template to the resume template you picked.</p>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-6">
           <div class="card">
           <h3>What is the Best Resume Template?</h3>
           <p>There’s no such thing as the “best Resume Template.” After all, every single recruiter has their own personal taste. Some might like a shiny & flashy resume template, while others might think it’s tacky.</p>

@@ -52,9 +52,13 @@ import img53 from '../vendor/images/img53.jpg'
 import img54 from '../vendor/images/img54.png'
 import img55 from '../vendor/images/img55.png'
 import img56 from '../vendor/images/img56.png'
+// import img58 from '../vendor/images/img58.jpeg'
+import img59 from '../vendor/images/img59.jpeg'
+import img60 from '../vendor/images/img60.jpeg'
+// import img61 from '../vendor/images/img61.svg'
 
 
 const images= {
-    img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20,img21,img22,img23,img24,img25,img26,img27,img28,img29,img30,img31,img32,img33,img34,img35,img36,img37,img38,img39,img40,img41,img42,img43,img44,img45,img46,img47,img49,img50,img51,img53,img54,img55,img56
+    img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20,img21,img22,img23,img24,img25,img26,img27,img28,img29,img30,img31,img32,img33,img34,img35,img36,img37,img38,img39,img40,img41,img42,img43,img44,img45,img46,img47,img49,img50,img51,img53,img54,img55,img56,img59,img60
 }
 export default images;

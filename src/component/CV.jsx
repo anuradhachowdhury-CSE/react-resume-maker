@@ -14,7 +14,7 @@ const CV = () => {
         <section class="cv-two">
           <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card  animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/minimalist-cv-template.png" alt=""/>
                        </div>
@@ -23,7 +23,7 @@ const CV = () => {
                     
                    
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/traditional-cv-template.png" alt=""/>
                     </div>
@@ -32,7 +32,7 @@ const CV = () => {
                    
                     
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/creative-cv-template.png" alt=""/>
                     </div>
@@ -42,7 +42,7 @@ const CV = () => {
                 
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/modern-cv-template.png" alt=""/>
                        </div>
@@ -51,7 +51,7 @@ const CV = () => {
                         <p>A clear and perfectly clean CV design that is perfect for applying in more conservative industries such as banking and law.</p>
                     
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/hybrid-cv-template.png" alt=""/>
                        </div>
@@ -60,7 +60,7 @@ const CV = () => {
                         <p>The traditional CV template will allow you to finish your job application within minutes, focusing on the essential sections.</p>
                    
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/basic-cv-template.png" alt=""/>
                        </div>
@@ -71,7 +71,7 @@ const CV = () => {
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/executive-cv-template.png" alt=""/>
                        </div>
@@ -79,8 +79,8 @@ const CV = () => {
                         </h4>
                         <p>The focus on your modern Curriculum Vitae (CV) template should be on your achievements during your work at the previous Companies and your impact on the overall performance.</p>
                     
-                </div>
-                <div class="col-md-3">
+                </div> 
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/general-cv-template.png" alt=""/>
                        </div>
@@ -89,7 +89,7 @@ const CV = () => {
                         <p>Use the hybrid format when you need a CV that perfectly combines your skills and professional experiences.</p>
                     
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/it-cv-template.png" alt=""/>
                        </div>
@@ -100,7 +100,7 @@ const CV = () => {
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/tech-cv-template.png" alt=""/>
                        </div>
@@ -109,7 +109,7 @@ const CV = () => {
                        <p>A general template that is versatile and can easily be adjusted and used for job applications in any industry.</p>
                 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/functional-cv-template.png" alt=""/>
                        </div>
@@ -118,7 +118,7 @@ const CV = () => {
                         <p>Executive Curriculum Vitae (CV) sample used when applying for positions that require more than five years of relevant work experience.</p>
                     
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/simple-cv-template.png" alt=""/>
                        </div>
@@ -129,7 +129,7 @@ const CV = () => {
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/combined-cv-template.png" alt=""/>
                        </div>
@@ -138,7 +138,7 @@ const CV = () => {
                        <p>A simple Curriculum Vitae (CV) layout that was developed for Seniors that have extensive experience in conservative industries such as banking or law.</p>
                 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/skill-based-cv-template.png" alt=""/>
                        </div>
@@ -147,7 +147,7 @@ const CV = () => {
                        <p>A functional Curriculum Vitae (CV) template in which it is recommended to focus on the work experience and skills you developed in the last 10 years.</p>
                     
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/professional-cv-template.png" alt=""/>
                        </div>
@@ -158,7 +158,7 @@ const CV = () => {
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/modern-cv-template.png" alt=""/>
                        </div>
@@ -167,7 +167,7 @@ const CV = () => {
                        <p>A professional Curriculum Vitae (CV) template that was developed in collaboration with multiple recruiters to increase your chances of getting your dream job.</p>
                     
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/tech-cv-template.png" alt=""/>
                     </div>
@@ -176,7 +176,7 @@ const CV = () => {
                        <p>The combination CV is perfect for professionals that wish to showcase both their work experience and skills at the same time.</p>
                     
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <div class="card card animate__animated animate__shakeX">
                        <img src="https://d.novoresume.com/images/doc/college-cv-template.png" alt=""/>
                     </div>
@@ -244,17 +244,17 @@ const CV = () => {
         <h1>CV Resources</h1>
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                   <img src={images.img1} alt=""/>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-4">
                     <h3>What is a Curriculum Vitae (CV)?</h3>
                     <p>A Curriculum Vitae, or CV for short, is a professional document that summarizes your work history, education, and skills. The main purpose of a CV is to sell you, as a candidate, to prospective employers.</p>
     
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-6 ">
                     <h3>What’s the Difference Between a CV and a Resume?</h3>
                  <p>If you ask a European, the answer is that the two (for most people) are the same thing.</p>
                    <p>The term “resume” is more popular in the US, while “CV” is a lot more commonplace in Europe.</p>
@@ -264,16 +264,16 @@ const CV = () => {
                    <p>The answer is both - you can use our templates for both purposes! If you’re looking for an academic CV, just add more pages. If you’re looking for a traditional CV, just stick to the one-page limit.</p>
                    <p>For more on the CV vs Resume topic, check out our article.</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-4">
                     <img src={images.img2} alt=""/>
     
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-4">
                   <img src={images.img4} alt=""/>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-4">
                     <h3>How to Write a CV?</h3>
                     <p>There’s a lot that goes into writing a good curriculum vitae, but here’s a quick summary:</p>
                     <p>1.Pick a Curriculum Vitae template that works for you. Applying for a creative position? Pick a creative CV template. Looking to work in a bank? Go for a professional CV template.</p>
@@ -284,7 +284,7 @@ const CV = () => {
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-6">
                  <h3>What to Include in a CV?</h3>
                  <p>The most common sections that go on a CV are the following:</p>
                     <ul>
@@ -295,16 +295,16 @@ const CV = () => {
                         <p>If you want to add some personality to your CV, or if you’re a recent graduate with not a lot of work experience, you can also include some of the optional sections - hobbies & interests, volunteering experience, and personal projects.</p>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-3">
                     <img src={images.img3} alt=""/>
     
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                   <img src={images.img5} alt=""/>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-4">
                     <h3>How Long Should a CV Be?</h3>
                     <p>The answer to this, of course, depends on what kind of Curriculum Vitae you’re talking about. If by CV you mean the same thing as a resume, it should be 1 page, 2 pages max.</p>
                     <p>If, on the other hand, you want to create an academic CV, then it can be as many pages as you need it to be!</p>
@@ -312,7 +312,7 @@ const CV = () => {
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-4">
                  <h3>What’s the Best CV Template?</h3>
                  <p>Spoiler: there’s no such thing as the “best cv template.” There’s no “best CV” either.</p>
                  <p>Everything related to CVs is highly subjective. One recruiter might LOVE your creative resume template, another might think it’s super tacky.</p>
@@ -323,34 +323,12 @@ const CV = () => {
                     <li>Does the company you’re applying for fall somewhere between the two types we mentioned? Then pick a modern or simple CV template.</li>
                  </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-4">
                     <img src={images.img6} alt=""/>
     
                 </div>
             </div>
-            {/* <!-- <div class="row">
-                <div class="col-md-3">
-                    <img src="image/7.png" alt=""/>
-                </div>
-                <div class="col-md-6">
-                    <h3>What should a resume include?</h3>
-                    <p>The must-have contents in your resume include the following sections:</p>
-                    <ul>
-                        <li>Work Experience</li>
-                        <li>Educational Background</li>
-                        <li>Contact Information</li>
-                        <li>Resume sumamry or Resume Objective</li>
-                   </ul>
-                    <p>The optional ones are:</p>
-                    <ul>
-                        <li>Hobbies & Interests</li>
-                        <li>Skills</li>
-                        <li>Volunteering Experience</li>
-                    </ul>
-                </div>
-            </div> 
-        </div>
-         */}
+          
         </div>
         
         

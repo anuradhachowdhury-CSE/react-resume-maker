@@ -40,22 +40,18 @@ p{
   }
 }
 nav{
-  /* background-color:black; */
-  height:5rem;
-  /* display: flex;
-  justify-content:end;
-  align-items: end; */
+ height:5rem;
  
 }
-/* .nav-link{
-  text-decoration: none;
+/* #navbarSupportedContent ul li a{
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
   color: white;
-  margin:5px;
-  padding: 10px;
-} */
-/* nav  .active{
-  color:red;
-} */
+  font-weight: 800;
+  /* overflow: hidden !important; */
+  /* background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
+  padding-left: 5%; */
+ 
+/* } */ 
 .spcl-img{
   width: 40%;
 }
@@ -66,19 +62,22 @@ nav{
   border-radius: 10px;
   font-weight: 700;
 }
+/* navbar */
+
 /* HOME PAge */
 .home-one{
   text-align: center;
-  background-image: url('https://www.whoa.in/download/1900-x-1200-size-hd-desktop-wallpaper-80');
-  background-repeat: no-repeat;
-  /* background-position: center; */
+  background-image: url('../src/vendor/images/img60.jpeg');
  height: 500px;
-margin-bottom: 30%;
-/* background: linear-gradient(to right,#51E2C2,#4BCCEF); */
+margin-bottom: 15%;
+background-size: cover;
+
+
 }
 .home-one img{
  width: 90%;
  margin-left: 30%;
+ 
 }
 .home-one .col-md-4 {
  color: white;
@@ -87,18 +86,19 @@ margin-bottom: 30%;
 .home-one a{
   background-color: rgb(44, 169, 55);
   padding: 5px;
-  border: 1px solid lightblue;
+  border: 1px solid rgb(183, 217, 229);
   border-radius: 10px;
   text-decoration: none;
   color: black;
   font-weight: 600;
+  
 }
 .home-two img{
 width: 100%;
 }
-.home-one .imgs{
+/* .home-one .imgs{
   position: relative;
-}
+} */
 .home-two{
   margin: 8%;
   text-align: center;
@@ -128,6 +128,16 @@ width: 100%;
   margin-bottom: 10%;
  
 }
+/* .navving{
+  background-color: #282c34;
+ color:black
+  }
+.navving li a{
+  
+  background-color: white;
+  color: black;
+  
+} */
 
 .home-three{
   width: 80%;
@@ -183,34 +193,38 @@ width: 100%;
 }
 .home-five{
   margin:0;
-  background-image: linear-gradient(to right,cyan,pink,yellow);
-  height: 600px;
+  /* background-image: linear-gradient(to right,cyan,pink,yellow); */
+  /* background-image: url('./vendor/images/img59.svg'); */
+  height: auto;
   margin-bottom:5%;
   background-position: center;
  background-size: cover;
+ text-align: left;
  
 
 }
 .home-five .col-md-6 h3,p{
 padding-left: 50px;
-padding-top: 50px;
+margin-top: 10%;
+
+/* padding-top: 50px; */
 }
-.home-five a{
+/* .home-five a{
   background-color: rgb(239, 196, 88);
   padding: 10px;
   color: black;
   text-decoration: none;
   border: 1px solid white;
   border-radius: 10%;
-  margin: 35%;
-}
+   margin: 35%;} */
+ 
 .home-five p{
   margin-bottom: 5%;
 }
 .home-five img{
-  width: 60%;
-  margin-top: -60%;
-  margin-left: 100%;
+  width: 50%;
+ 
+ 
 }
 main{
   margin: 0;
@@ -252,9 +266,7 @@ justify-content: center;
 }
 
 /* Resume page */
-/* .resume-one-one img{
-  width:50%;
-} */
+
 
 .resume-one img{
  /* background-image: url('image/group.png'); */
@@ -292,6 +304,7 @@ justify-content: center;
 }
 .resume-two .container{
    margin-left: 17%;
+  
   }
   .resume-three{
     background-color: rgb(249, 244, 244);
@@ -317,9 +330,7 @@ justify-content: center;
   text-align: center;
  
  }
- /* .cv-two{
-     height: 600px;
- } */
+ 
  .cv-two .card{
      margin: 7%;
     
@@ -338,7 +349,7 @@ justify-content: center;
     text-align: center;
  }
  .cv-three{
-    /* background-image: url('image/'); */
+   
     background-image: url('https://images.unsplash.com/photo-1614851099175-e5b30eb6f696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmFubmVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
     background-image: url('https://wallpaperaccess.com/full/4954222.jpg');
   background-size: cover;
@@ -350,7 +361,7 @@ justify-content: center;
     padding: 5%;
  }
  .seven{
-  /* background-image: url('https://wallpaperaccess.com/full/4954222.jpg'); */
+  
   background-size: contain;
  
  }
@@ -513,32 +524,70 @@ justify-content: center;
 }
   /* Footer */
 
-footer .nine{
-  background-color: #69727d;
-  line-height: 50px;
-text-align: end;
+/* FOOTER */
+footer{
+  background-color: black;
+  padding: 5%;
 
-}
-.nine i{
-  color: white;
-  padding: 20px;
-}
-footer .ten{
-  background-color: #425061;
-  padding: 2%;
-  color:white;
-}
-footer a{
-  color:white;
-  text-decoration: none;
-}
-footer li{
-  list-style: none;
  
 }
-footer .eleven{
-  background-color: black;
-  text-align: center;
-  color: white;
- /* padding: 3%; */
+p{
+  margin: 0;
 }
+footer a{
+  transition: all 0.3s ease;
+}
+footer a,p{
+  text-decoration: none;
+  color: gray;
+  text-align: left;
+
+}
+footer a:hover,i:hover{
+  color: white;
+ 
+}
+footer h5{
+color: white;
+text-align: left;
+font-weight: 700;
+
+}
+footer i{
+  color: gray;
+  padding: 4%;
+  transition: all 0.3s ease;
+  
+}
+footer i{
+
+}
+.contact-btn{
+  background-color: rgb(190, 13, 104);
+  color: white;
+ border: 1px solid black;
+ border-radius: 40px;
+margin-top: 7%;
+transition: all 0.3s ease;
+}
+.contact-btn:hover{
+  background-color: white;
+  color: black;
+  /* transition: all 0.3s ease; */
+}
+footer hr{
+  color: gray;
+}
+footer h6{
+  font-size: 14px;
+  color: gray;
+}
+.last-portion{
+  text-align: center;
+}
+footer .paragraph{
+  margin: 0;
+}
+/* header{
+  margin-bottom: 100px;
+} */
