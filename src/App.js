@@ -11,8 +11,7 @@ import Motivation from './component/Motivation';
 import Footer from './component/Footer';
 import Register from './component/Register';
 import Sign from './component/Sign';
-import OffcanvasExample from './component/Navbar';
-import Navs from './component/Navs';
+
 
 
 function App() {
